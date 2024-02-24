@@ -1,0 +1,24 @@
+﻿@model TimKiemHangTon.Models.HangTon
+
+<div class="card-body">
+    <h4 class="card-title">Thông tin</h4>
+    <div class="table-responsive">
+        <table class="product-info-table m-t-20">
+            <tbody>
+                <tr>
+                    <td>Inspection No:</td>
+                    <td class="text-dark font-weight-semibold">@Model.InspectionNo</td>
+                </tr>
+                <tr>
+                    <td>Tên mã hàng:</td>
+                    <td>@Model.MaHang</td>
+                </tr>
+                <tr>
+                    <td>Số lượng:</td>
+                    <td>@Model.SoLuong</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>

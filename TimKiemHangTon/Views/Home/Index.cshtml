@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using (Html.BeginForm("Index", "TimKiem", FormMethod.Get))
+{
+    <div class="input-group" style=" margin-left:200px">
+        <div>
+            <input style="width:200px" type="search" name="sKey" class="form-control bg-light border-0 small" placeholder="Nhập tên vắc xin" required />
+        </div>
+     
+        <div class="input-group-append">
+            <input class="btn btn-primary" type="submit" value="Tìm kiếm">
+        </div>
+    </div>
+
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
